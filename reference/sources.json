@@ -1,0 +1,37 @@
+{
+  "repository": "hsalis/SalisLabCode",
+  "tag": "r2022",
+  "commit": "561990e2278f8da80207f721f05b0c1b935c7a97",
+  "files": [
+    {
+      "name": "Promoter_Calculator_v1_0.py",
+      "url": "https://raw.githubusercontent.com/hsalis/SalisLabCode/561990e2278f8da80207f721f05b0c1b935c7a97/Promoter_Calculator/Promoter_Calculator_v1_0.py",
+      "sha256": "67d2733b0be1968668c6710e56262b00d9b4725b98b4f94749519591b48d1cdb"
+    },
+    {
+      "name": "util.py",
+      "url": "https://raw.githubusercontent.com/hsalis/SalisLabCode/561990e2278f8da80207f721f05b0c1b935c7a97/Promoter_Calculator/util.py",
+      "sha256": "abd561c6f1a4669dace3f783903f2779133cdc4ce5319919302303982eba23cc"
+    },
+    {
+      "name": "free_energy_coeffs.npy",
+      "url": "https://raw.githubusercontent.com/hsalis/SalisLabCode/561990e2278f8da80207f721f05b0c1b935c7a97/Promoter_Calculator/free_energy_coeffs.npy",
+      "sha256": "fddf16b38bf29799481e8a45890b669111e16cf2e3448e99d1934d19a8f0b8e9"
+    },
+    {
+      "name": "model_intercept.npy",
+      "url": "https://raw.githubusercontent.com/hsalis/SalisLabCode/561990e2278f8da80207f721f05b0c1b935c7a97/Promoter_Calculator/model_intercept.npy",
+      "sha256": "f7c66a8d838da71a6b2ab17936cd6ff2564e446af8c0676fba95de2116e99a7b"
+    },
+    {
+      "name": "LICENSE",
+      "url": "https://raw.githubusercontent.com/hsalis/SalisLabCode/561990e2278f8da80207f721f05b0c1b935c7a97/Promoter_Calculator/LICENSE",
+      "sha256": "45d25f34fe826d27d344175bd622cbf3d35cbf53bd993d1350d44ee706571ffd"
+    },
+    {
+      "name": "README.md",
+      "url": "https://raw.githubusercontent.com/hsalis/SalisLabCode/561990e2278f8da80207f721f05b0c1b935c7a97/Promoter_Calculator/README.md",
+      "sha256": "a5f3269206f5425e2c21ca58d9cb638fe87a4cbb1dbdff537a676747dc4b26d2"
+    }
+  ]
+}

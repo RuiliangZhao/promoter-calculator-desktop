@@ -1,0 +1,13 @@
+import {copyFile,mkdir,readFile,rm,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const {version}=JSON.parse(await readFile('package.json','utf8'));
+const filename=`Promoter-Calculator-Desktop-v${version}.html`;
+await rm('dist/release',{recursive:true,force:true});
+await mkdir('dist/release',{recursive:true});
+await copyFile(`dist/${filename}`,`dist/release/${filename}`);
+await copyFile('README.md','dist/release/README.md');
+await copyFile('LICENSE','dist/release/LICENSE');
+await copyFile('licenses/THIRD_PARTY_NOTICES.md','dist/release/THIRD_PARTY_NOTICES.md');
+const digest=createHash('sha256').update(await readFile(`dist/release/${filename}`)).digest('hex');
+await writeFile(`dist/release/${filename}.sha256`,`${digest}  ${filename}\n`);
+console.log(`Prepared dist/release/${filename}\nSHA-256 ${digest}`);

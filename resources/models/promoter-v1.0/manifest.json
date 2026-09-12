@@ -1,0 +1,16 @@
+{
+  "id": "salis-r2022-v1.0",
+  "modelVersion": "1.0",
+  "commit": "561990e2278f8da80207f721f05b0c1b935c7a97",
+  "sha256": "4b39cea100ba85b4dbe52c7be66f2514fd21877173165398cbb0ba38d48f8807",
+  "calibrations": {
+    "ecoli": {
+      "K": 42,
+      "beta": 1.636217004872062
+    },
+    "invitro": {
+      "K": 42,
+      "beta": 0.81632623
+    }
+  }
+}
